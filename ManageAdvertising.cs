@@ -5,15 +5,9 @@ using System;
 public class ManageAdvertising : MonoBehaviour
 {
 
-//ca-app-pub-2244252108812173/4460801443
-//kullanacagım gercek reklam idsi
-
-//test reklam idsi
-//"ca-app-pub-3940256099942544/1033173712"
-
 // These ad units are configured to always serve test ads.
     #if UNITY_ANDROID
-    private string _adUnitId = "ca-app-pub-2244252108812173/4460801443";
+    private string _adUnitId = "ca-app-pub-3940256099942544/1033173712";
     #else
     private string _adUnitId = "unused";
     #endif
